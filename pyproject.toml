@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "ml-hackathon-toolkit"
+name = "adi-ml-toolkit"
 version = "0.1.0"
 description = "The ultimate all-in-one Machine Learning toolkit for hackathons, including every essential library and CLI setup tools."
 readme = "README.md"
