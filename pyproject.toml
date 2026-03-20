@@ -4,14 +4,14 @@ build-backend = "hatchling.build"
 
 [project]
 name = "adi-ml-toolkit"
-version = "0.1.2"
+version = "0.2.0"
 description = "A handy metapackage installing common ML/AI libraries and tools I use for hackathons."
 readme = "README.md"
 authors = [
     { name = "Aditya", email = "adityashirsatrao007@gmail.com" }
 ]
 license = { text = "MIT" }
-requires-python = ">=3.9"
+requires-python = ""
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -20,99 +20,99 @@ classifiers = [
 ]
 dependencies = [
     # Core Data Science
-    "numpy>=1.24.0",
-    "pandas>=2.0.0",
-    "scipy>=1.10.0",
+    "numpy",
+    "pandas",
+    "scipy",
     
     # Machine Learning Core
-    "scikit-learn>=1.3.0",
-    "xgboost>=2.0.0",
-    "lightgbm>=4.0.0",
-    "catboost>=1.2.0",
+    "scikit-learn",
+    "xgboost",
+    "lightgbm",
+    "catboost",
     
     # Deep Learning Frameworks
-    "torch>=2.1.0",
-    "torchvision>=0.16.0",
-    "torchaudio>=2.1.0",
-    "pytorch-lightning>=2.1.0",
-    "fastai>=2.7.0",
-    "tensorflow>=2.15.0",
-    "tensorflow-decision-forests>=1.8.0",
-    "keras>=3.0.0",
-    "jax[cpu]>=0.4.0",
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "pytorch-lightning",
+    "fastai",
+    "tensorflow",
+    "tensorflow-decision-forests",
+    "keras",
+    "jax[cpu]",
     
     # NLP & HuggingFace Ecosystem
-    "transformers>=4.35.0",
-    "datasets>=2.15.0",
-    "accelerate>=0.25.0",
-    "huggingface-hub>=0.19.0",
-    "sentence-transformers>=2.2.0",
-    "spacy>=3.7.0",
-    "nltk>=3.8.0",
-    "gensim>=4.3.0",
+    "transformers",
+    "datasets",
+    "accelerate",
+    "huggingface-hub",
+    "sentence-transformers",
+    "spacy",
+    "nltk",
+    "gensim",
     
     # Vector DBs & Generative AI APIs
-    "langchain>=0.1.0",
-    "langchain-openai>=0.0.2",
-    "langgraph>=0.0.1",
-    "openai>=1.10.0",
-    "anthropic>=0.12.0",
-    "google-generativeai>=0.3.0",
-    "chromadb>=0.4.22",
-    "pinecone-client>=3.0.0",
-    "qdrant-client>=1.7.0",
-    "tiktoken>=0.5.0",
-    "llama-index>=0.9.0",
-    "crewai>=0.11.0",
-    "autogen-agentchat>=0.2.0",
-    "pyautogen>=0.2.0",
-    "semantic-kernel>=0.5.0",
+    "langchain",
+    "langchain-openai",
+    "langgraph",
+    "openai",
+    "anthropic",
+    "google-generativeai",
+    "chromadb",
+    "pinecone-client",
+    "qdrant-client",
+    "tiktoken",
+    "llama-index",
+    "crewai",
+    "autogen-agentchat",
+    "pyautogen",
+    "semantic-kernel",
     
     # Computer Vision & Medical
-    "opencv-python-headless>=4.8.0",
-    "pillow>=10.0.0",
-    "scikit-image>=0.21.0",
-    "monai>=1.3.0",
+    "opencv-python-headless",
+    "pillow",
+    "scikit-image",
+    "monai",
     
     # Time Series & Audio
-    "librosa>=0.10.0",
-    "statsmodels>=0.14.0",
-    "prophet>=1.1.4",
+    "librosa",
+    "statsmodels",
+    "prophet",
     
     # Visualization
-    "matplotlib>=3.8.0",
-    "seaborn>=0.13.0",
-    "plotly>=5.18.0",
+    "matplotlib",
+    "seaborn",
+    "plotly",
     
     # Jupyter & Notebooks
-    "jupyterlab>=4.0.0",
-    "notebook>=7.0.0",
-    "ipywidgets>=8.1.0",
+    "jupyterlab",
+    "notebook",
+    "ipywidgets",
     
     # MLOps, AutoML & Experiment Tracking
-    "mlflow>=2.9.0",
-    "wandb>=0.16.0",
-    "optuna>=3.4.0",
-    "pycaret>=3.2.0",
-    "autogluon>=1.0.0; python_version < '3.14'",
+    "mlflow",
+    "wandb",
+    "optuna",
+    "pycaret",
+    "autogluon; python_version < '3.14'",
     
     # Web Apps & APIs
-    "fastapi>=0.104.0",
-    "uvicorn>=0.24.0",
-    "flask>=3.0.0",
-    "streamlit>=1.29.0",
-    "gradio>=4.0.0",
-    "pydantic>=2.4.0",
-    "python-multipart>=0.0.6",
+    "fastapi",
+    "uvicorn",
+    "flask",
+    "streamlit",
+    "gradio",
+    "pydantic",
+    "python-multipart",
     
     # Utilities, Scraping, DBs
-    "requests>=2.31.0",
-    "beautifulsoup4>=4.12.0",
-    "python-dotenv>=1.0.0",
-    "sqlalchemy>=2.0.0",
-    "pymongo>=4.6.0",
-    "redis>=5.0.0",
-    "celery>=5.3.0",
+    "requests",
+    "beautifulsoup4",
+    "python-dotenv",
+    "sqlalchemy",
+    "pymongo",
+    "redis",
+    "celery",
 ]
 
 [project.urls]
