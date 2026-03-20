@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "adi-ml-toolkit"
-version = "0.2.1"
+version = "0.2.2"
 description = "A handy metapackage installing common ML/AI libraries and tools I use for hackathons."
 readme = "README.md"
 authors = [
@@ -36,9 +36,9 @@ dependencies = [
     "torchaudio; python_version < '3.13'",
     "pytorch-lightning",
     "fastai",
-    "tensorflow; python_version < \'3.13\'",
-    "tensorflow-decision-forests; python_version < \'3.13\'",
-    "keras; python_version < \'3.13\'",
+    "tensorflow; python_version < '3.13'",
+    "tensorflow-decision-forests; python_version < '3.13'",
+    "keras; python_version < '3.13'",
     "jax[cpu]; python_version < '3.13'",
     
     # NLP & HuggingFace Ecosystem
