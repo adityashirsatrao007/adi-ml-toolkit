@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "adi-ml-toolkit"
-version = "0.2.0"
+version = "0.2.1"
 description = "A handy metapackage installing common ML/AI libraries and tools I use for hackathons."
 readme = "README.md"
 authors = [
@@ -31,15 +31,15 @@ dependencies = [
     "catboost",
     
     # Deep Learning Frameworks
-    "torch",
-    "torchvision",
-    "torchaudio",
+    "torch; python_version < '3.13'",
+    "torchvision; python_version < '3.13'",
+    "torchaudio; python_version < '3.13'",
     "pytorch-lightning",
     "fastai",
-    "tensorflow",
-    "tensorflow-decision-forests",
-    "keras",
-    "jax[cpu]",
+    "tensorflow; python_version < \'3.13\'",
+    "tensorflow-decision-forests; python_version < \'3.13\'",
+    "keras; python_version < \'3.13\'",
+    "jax[cpu]; python_version < '3.13'",
     
     # NLP & HuggingFace Ecosystem
     "transformers",
