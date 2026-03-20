@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "adi-ml-toolkit"
 version = "0.1.0"
-description = "The ultimate all-in-one Machine Learning toolkit for hackathons, including every essential library and CLI setup tools."
+description = "A handy metapackage installing common ML/AI libraries and tools I use for hackathons."
 readme = "README.md"
 authors = [
     { name = "Aditya", email = "adityashirsatrao007@gmail.com" }

@@ -57,10 +57,9 @@ def install_gcp_cli():
     print("Or if using Windows with winget: winget install Google.CloudSDK")
 
 def main():
-    print("=======================================")
-    print("Welcome to ML Hackathon Toolkit Setup!")
-    print("=======================================")
-    print("This script will help you install common hackathon CLIs.")
+    print("Running hackathon CLI setup...")
+    print("This will help you install some common deployment tools.")
+    print("---------------------------------------------------")
     
     install_gh = input("Install GitHub CLI? [y/N]: ").lower().startswith('y')
     if install_gh:

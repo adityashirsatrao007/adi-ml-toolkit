@@ -1,27 +1,26 @@
-# ML Hackathon Toolkit
+# adi-ml-toolkit
 
-The ultimate meta-package for AI students and hackathon participants. This single package installs every essential Machine Learning, Deep Learning, Data Science, and Web Deployment library you will need during a hackathon. It also includes comprehensive tools to set up popular CLIs (GitHub CLI, Vercel, AWS, etc.).
+Just a handy Python metapackage I put together to save time during hackathons. It installs all the common AI, ML, NLP, and web deployment libraries at once (with compatible minimum versions), so you don't have to keep running `pip install` for an hour during competitions.
 
-## Installation
+## Quick Start
 
 ```bash
 pip install adi-ml-toolkit
 ```
 
-## What's Included?
+## What it installs
 
-### Libraries
-- **Core ML:** Scikit-Learn, XGBoost, LightGBM, CatBoost
-- **Deep Learning:** PyTorch, TensorFlow, Keras
-- **NLP:** Transformers, Datasets, HuggingFace Hub, SpaCy, NLTK
-- **Computer Vision:** OpenCV, Pillow, Scikit-Image
-- **Data & Visualization:** Pandas, NumPy, Matplotlib, Seaborn, Plotly
-- **Web & API:** FastAPI, Flask, Streamlit, Gradio
-- **MLOps:** W&B, MLflow, Optuna
+*   **Deep Learning:** torch, torchvision, jax, fastai, tensorflow
+*   **NLP & Agents:** transformers, langchain, langgraph, openai, huggingface-hub, autogen
+*   **Classic ML:** scikit-learn, xgboost, lightgbm
+*   **Web Frameworks:** fastapi, flask, streamlit, gradio
+*   **Data Science:** pandas, numpy, matplotlib, seaborn
 
-### Setup CLIs easily
+*Note: Check `pyproject.toml` for the full list of dependencies.*
 
-Run the following command (after installing the package) to install common hackathon system CLIs (Vercel, GitHub CLI, AWS CLI) depending on your OS.
+## Setup Tools (Optional)
+
+It also includes a small python script that helps you globally install common CLIs (like Vercel, Heroku, AWS CLI, Netlify) so your deployment environment is ready to go. Run:
 
 ```bash
 ml-setup-clis
@@ -29,4 +28,5 @@ ml-setup-clis
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Feel free to open a PR if you think I missed a useful library or CLI tool.
+
