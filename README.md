@@ -5,7 +5,7 @@ The ultimate meta-package for AI students and hackathon participants. This singl
 ## Installation
 
 ```bash
-pip install ml-hackathon-toolkit
+pip install adi-ml-toolkit
 ```
 
 ## What's Included?
