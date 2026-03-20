@@ -120,4 +120,4 @@ Homepage = "https://github.com/adityashirsatrao007/adi-ml-toolkit"
 Repository = "https://github.com/adityashirsatrao007/adi-ml-toolkit.git"
 
 [project.scripts]
-ml-setup-clis = "ml_hackathon_toolkit.cli:main"
+ml-setup-clis = "adi_ml_toolkit.cli:main"
