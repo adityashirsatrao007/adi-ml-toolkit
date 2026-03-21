@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "adi-ml-toolkit"
-version = "0.2.6"
+version = "0.2.7"
 description = "A handy metapackage installing common ML/AI libraries and tools I use for hackathons."
 readme = "README.md"
 authors = [
@@ -20,100 +20,100 @@ classifiers = [
 ]
 dependencies = [
     # Core Data Science
-    "numpy",
-    "pandas",
-    "scipy",
-    "pyyaml",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scipy>=1.10.0",
+    "pyyaml>=6.0.2",
     
     # Machine Learning Core
-    "scikit-learn",
-    "xgboost",
-    "lightgbm",
-    "catboost",
+    "scikit-learn>=1.3.0",
+    "xgboost>=2.0.0",
+    "lightgbm>=4.0.0",
+    "catboost>=1.2.0",
     
     # Deep Learning Frameworks
-    "torch",
-    "torchvision",
-    "torchaudio",
-    "pytorch-lightning",
-    "fastai",
-    "tensorflow",
-    "tensorflow-decision-forests",
-    "keras",
-    "jax[cpu]",
+    "torch>=2.1.0; python_version < '3.13'",
+    "torchvision>=0.16.0; python_version < '3.13'",
+    "torchaudio>=2.1.0; python_version < '3.13'",
+    "pytorch-lightning>=2.1.0",
+    "fastai>=2.7.0",
+    "tensorflow>=2.15.0; python_version < '3.13'",
+    "tensorflow-decision-forests>=1.8.0; python_version < '3.13'",
+    "keras>=3.0.0; python_version < '3.13'",
+    "jax[cpu]>=0.4.0; python_version < '3.13'",
     
     # NLP & HuggingFace Ecosystem
-    "transformers",
-    "datasets",
-    "accelerate",
-    "huggingface-hub",
-    "sentence-transformers",
-    "spacy",
-    "nltk",
-    "gensim",
+    "transformers>=4.35.0",
+    "datasets>=2.15.0",
+    "accelerate>=0.25.0",
+    "huggingface-hub>=0.19.0",
+    "sentence-transformers>=2.2.0",
+    "spacy>=3.7.0",
+    "nltk>=3.8.0",
+    "gensim>=4.3.0",
     
     # Vector DBs & Generative AI APIs
-    "langchain",
-    "langchain-openai",
-    "langgraph",
-    "openai",
-    "anthropic",
-    "google-generativeai",
-    "chromadb",
-    "pinecone-client",
-    "qdrant-client",
-    "tiktoken",
-    "llama-index",
-    "crewai",
-    "autogen-agentchat",
-    "pyautogen",
-    "semantic-kernel",
+    "langchain>=0.1.0",
+    "langchain-openai>=0.0.2",
+    "langgraph>=0.0.1",
+    "openai>=1.10.0",
+    "anthropic>=0.12.0",
+    "google-generativeai>=0.3.0",
+    "chromadb>=0.4.22",
+    "pinecone-client>=3.0.0",
+    "qdrant-client>=1.7.0",
+    "tiktoken>=0.5.0",
+    "llama-index>=0.9.0",
+    "crewai>=0.11.0",
+    "autogen-agentchat>=0.2.0",
+    "pyautogen>=0.2.0",
+    "semantic-kernel>=0.5.0",
     
     # Computer Vision & Medical
-    "opencv-python-headless",
-    "pillow",
-    "scikit-image",
-    "monai",
+    "opencv-python-headless>=4.8.0",
+    "pillow>=10.0.0",
+    "scikit-image>=0.21.0",
+    "monai>=1.3.0",
     
     # Time Series & Audio
-    "librosa",
-    "statsmodels",
-    "prophet",
+    "librosa>=0.10.0",
+    "statsmodels>=0.14.0",
+    "prophet>=1.1.4",
     
     # Visualization
-    "matplotlib",
-    "seaborn",
-    "plotly",
+    "matplotlib>=3.8.0",
+    "seaborn>=0.13.0",
+    "plotly>=5.18.0",
     
     # Jupyter & Notebooks
-    "jupyterlab",
-    "notebook",
-    "ipywidgets",
+    "jupyterlab>=4.0.0",
+    "notebook>=7.0.0",
+    "ipywidgets>=8.1.0",
     
     # MLOps, AutoML & Experiment Tracking
-    "mlflow",
-    "wandb",
-    "optuna",
-    "pycaret",
-    "autogluon",
+    "mlflow>=2.9.0",
+    "wandb>=0.16.0",
+    "optuna>=3.4.0",
+    "pycaret>=3.2.0",
+    "autogluon>=1.0.0; python_version < '3.14'",
     
     # Web Apps & APIs
-    "fastapi",
-    "uvicorn",
-    "flask",
-    "streamlit",
-    "gradio",
-    "pydantic",
-    "python-multipart",
+    "fastapi>=0.104.0",
+    "uvicorn>=0.24.0",
+    "flask>=3.0.0",
+    "streamlit>=1.29.0",
+    "gradio>=4.0.0",
+    "pydantic>=2.4.0",
+    "python-multipart>=0.0.6",
     
     # Utilities, Scraping, DBs
-    "requests",
-    "beautifulsoup4",
-    "python-dotenv",
-    "sqlalchemy",
-    "pymongo",
-    "redis",
-    "celery",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "python-dotenv>=1.0.0",
+    "sqlalchemy>=2.0.0",
+    "pymongo>=4.6.0",
+    "redis>=5.0.0",
+    "celery>=5.3.0",
 ]
 
 [project.urls]
